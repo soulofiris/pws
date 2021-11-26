@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * { margin: 0; padding : 0; box-sizing: border-box; }
+        a {text-decoration:none; color: cadetblue;}
+        #page {margin : auto; text-align: center; background-color : blanchedalmond; border: 2px solid skyblue;}
+        .title { border : 2px solid pink ; display: inline; font-size: 24px; font-weight: bold;}
+        div {width : 1200px; }
+        img {width : 400px; height: 600px;}
+        .parkList { list-style: none;}
+        ul.parkList li:before {
+            content : ">"; color: cadetblue;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="page">
+        <header></header>
+        <nav></nav>
+        <section>
+            <div style="border-bottom: 2px solid skyblue; height: 70px; ">
+                <span class="title">이름</span><br>
+                <span style="color: cadetblue;" >박우상</span>        
+            </div>
+            <div style="border-bottom: 2px solid skyblue;">
+                <div class="title">취미</div>
+                <p style="color: cadetblue;">운동화 구경</p>
+                <img src = "park001.jpg">
+                <img src = "park002.jpg">
+            </div>
+            <div>
+                <div class="title">관심분야</div>
+                    <ul class="parkList">
+                        <li><a href="https://youtu.be/YmQD5P6fvlc" target="blanc">LoL</a></li>
+                        <li><a href="https://www.nikemania.com" target="blanc">운동화</a></li>
+                        <li><a href="https://youtu.be/1itTFVWgsoA" target="blanc">운동</a></li>
+                </ul>
+                
+            </div>
+        </section>
+        <footer></footer>
+    </div>
+</body>
+</html>
