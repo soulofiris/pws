@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>남탕 박우상 자기소개</title>
     <style>
         * { margin: 0; padding : 0; box-sizing: border-box; }
         a {text-decoration:none; color: cadetblue;}
-        #page {margin : auto; text-align: center; background-color : blanchedalmond; border: 2px solid skyblue;}
+        #page {margin : auto; text-align: center; }
+        .main {margin : auto; text-align: center; background-color : blanchedalmond; border: 2px solid skyblue;}
         .title { border : 2px solid pink ; display: inline; font-size: 24px; font-weight: bold;}
         div {width : 1200px; }
         img {width : 400px; height: 600px;}
@@ -16,35 +17,65 @@
         ul.parkList li:before {
             content : ">"; color: cadetblue;
         }
+
+        .teamName {font-size: 100px; font-weight: bold; background-color: blue;}
+        nav ul li {
+            float : left; width : 171.4px; list-style: none; margin:auto;
+            background-color: whitesmoke;
+        }
+       li  a {text-decoration:none; color: cadetblue;}
+        #page {margin : auto; text-align: center; }
+        .index_main {margin : auto; text-align: center; background-color : blanchedalmond; border: 2px solid skyblue;
+        font-size: 44px;}
+
+        footer > a {
+            color: black;
+        }
     </style>
 
 </head>
 <body>
     <div id="page">
-        <header></header>
-        <nav></nav>
-        <section>
-            <div style="border-bottom: 2px solid skyblue; height: 70px; ">
-                <span class="title">이름</span><br>
-                <span style="color: cadetblue;" >박우상</span>        
+        <header>
+            <div class="teamName">
+                ♨ 남 탕 ♨
             </div>
-            <div style="border-bottom: 2px solid skyblue;">
-                <div class="title">취미</div>
-                <p style="color: cadetblue;">운동화 구경</p>
-                <img src = "park001.jpg">
-                <img src = "park002.jpg">
-            </div>
-            <div>
-                <div class="title">관심분야</div>
-                    <ul class="parkList">
-                        <li><a href="https://youtu.be/YmQD5P6fvlc" target="blanc">LoL</a></li>
-                        <li><a href="https://www.nikemania.com" target="blanc">운동화</a></li>
-                        <li><a href="https://youtu.be/1itTFVWgsoA" target="blanc">운동</a></li>
-                </ul>
-                
-            </div>
-        </section>
-        <footer></footer>
+        </header>
+        <nav style="overflow: hidden;">
+            <ul>
+                <li><a href = "kang.html">강태영</a></li>
+                <li><a href = "park.html">박우상</a></li>
+                <li><a href = "wang.html">왕운찬</a></li>
+                <li><a href = "lee.html">이도경</a></li>
+                <li><a href = "choi.html">최경훈</a></li>
+                <li><a href = "#">박동섭</a></li>
+                <li><a href = "kim.html">김성민</a></li>
+            </ul>
+        </nav>
+        <div class="main">
+            <section>
+                <div style="border-bottom: 2px solid skyblue; height: 70px; ">
+                    <span class="title">이름</span><br>
+                    <span style="color: cadetblue;" >박우상</span>        
+                </div>
+                <div style="border-bottom: 2px solid skyblue;">
+                    <div class="title">취미</div>
+                    <p style="color: cadetblue;">운동화 구경</p>
+                    <img src = "park001.jpg">
+                    <img src = "park002.jpg">
+                </div>
+                <div>
+                    <div class="title">관심분야</div>
+                        <ul class="parkList">
+                            <li><a href="https://youtu.be/YmQD5P6fvlc" target="blanc">LoL</a></li>
+                            <li><a href="https://www.nikemania.com" target="blanc">운동화</a></li>
+                            <li><a href="https://youtu.be/1itTFVWgsoA" target="blanc">운동</a></li>
+                    </ul>
+                    
+                </div>
+            </section>
+        </div>
+        <footer class="teamName"><a href="index.html">메인으로</a></footer>
     </div>
 </body>
 </html>
